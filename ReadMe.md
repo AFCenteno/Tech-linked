@@ -4,7 +4,7 @@
 ## Description
 Tech-linked is a Blog where you can talk about technical concepts, recent advancements, and new technologies.
 
-##Table of Contents
+## Table of Contents
 * [Install](#Install)
 * [Use](#Use)
 * [License](#License)
@@ -27,5 +27,5 @@ To test, run the following:
 ## License
 This project is covered by the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
 
-##Questions
+## Questions
 Any questions? Feel free to reach out to me at my Github: mrafcent1 or via my email alexfcenteno@outlook.com
