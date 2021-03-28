@@ -27,8 +27,13 @@ Post.init(
         model: 'user',
         key: 'id'
       }
-    }
+    },
+    created_at: {
+      type: 'TIMESTAMP',
+      defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
+      allowNull: false
   },
+},
   {
     sequelize,
     freezeTableName: true,
