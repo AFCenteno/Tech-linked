@@ -60,6 +60,10 @@ textarea {
   min-height: 100px;
 }
 
+bodyInput {
+  padding: 40px
+}
+
 form > div {
   margin-bottom: 2%;
 }
