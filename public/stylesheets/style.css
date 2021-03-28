@@ -61,7 +61,8 @@ textarea {
 }
 
 .bodyInput {
-  padding: 40px
+  padding-right: 60px;
+  padding-bottom: 60px;
 }
 
 form > div {
