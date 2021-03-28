@@ -3,7 +3,7 @@
     <a href="/post/{{id}}">{{title}}</a>
     </br>
     <span>{{post_body}}</span>
-    <a>{{created_at}}</a>
+    <a>{{pf:dateTimeFormat answers.DateTime.0 "HH:mm 'on' EEE, d MMM yyyy ", created_at}}</a>
   </div>
   <div class="meta">
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
