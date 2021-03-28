@@ -29,8 +29,8 @@ Post.init(
       }
     },
     myDate: { 
-      type: Sequelize.DATE, 
-      defaultValue: Sequelize.NOW 
+      type: DataTypes.DATE, 
+      defaultValue: DataTypes.NOW 
   },
 },
   {
