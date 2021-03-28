@@ -28,10 +28,9 @@ Post.init(
         key: 'id'
       }
     },
-    created_at: {
-      type: 'TIMESTAMP',
-      defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
-      allowNull: false
+    myDate: { 
+      type: Sequelize.DATE, 
+      defaultValue: Sequelize.NOW 
   },
 },
   {
